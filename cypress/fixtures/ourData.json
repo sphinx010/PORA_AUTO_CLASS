@@ -2,12 +2,32 @@
   "name": "Using fixtures to represent data",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
+  "username": "Admin",
   "username_field": "[name='username']",
   "password_field": "[name='password']",
-  "username": "Admin",
-  "password": "admin123",
   "login_button_Value": "Login",
   "login_button_class": ".oxd-button",
   "dashboard_value": "Dashboard",
-  "dashboard_class_sideBar": ".oxd-topbar-header-title"
+  "dashboard_class_sideBar": ".oxd-topbar-header-title",
+  "login_endpoint": "auth/validate",
+  "my_info_class_selector": ":nth-child(6) > .oxd-main-menu-item",
+  "full_name_field": [
+    "[name='firstName']",
+    "[name='middleName']",
+    "[name='lastName']"
+  ],
+  "nick_name": ":nth-child(1) > .oxd-form > :nth-child(1) > .oxd-grid-3 > .oxd-grid-item",
+  "employee_Id_fields": [
+    ":nth-child(3) > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-input",
+    ":nth-child(3) > :nth-child(1) > :nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input"
+  ],
+  "drivers_License_Number_field": [
+    ":nth-child(3) > :nth-child(2) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-input",
+    ":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-date-wrapper > .oxd-date-input > .oxd-input"
+  ],
+  "nationality_field": ":nth-child(5) > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text",
+  "marital_status": ":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text",
+  "dOB": ":nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-date-wrapper > .oxd-date-input > .oxd-input",
+  "gender": ":nth-child(2) > :nth-child(2) > .oxd-radio-wrapper > label",
+  "save_button": ":nth-child(1) > .oxd-form > .oxd-form-actions > .oxd-button"
 }
